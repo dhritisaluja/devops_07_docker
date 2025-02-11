@@ -38,7 +38,7 @@ let mongoUrlDockerCompose = "mongodb://admin:pass@mongodb";
 // pass these options to mongo client connect request to avoid DeprecationWarning for current Server Discovery and Monitoring engine
 let mongoClientOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 
-// "my-db" as db name in demo with docker. "my-db" in demo with docker-compose
+// "my-db" as db name in demo with docker.
 let databaseName = "my-db";
 
 //When a user submits updated profile information, the server saves it into the database
