@@ -3,7 +3,7 @@ services:
     image: 975049891922.dkr.ecr.us-east-1.amazonaws.com/user-profile:1.0
     ports:
       - "3000:3000"
-  mongo:
+  mongodb:
     image: mongo
     ports:
       - "27017:27017"
