@@ -60,6 +60,5 @@ networks:
 
 volumes:
   mongo-data:  # Define a named volume
-
-
+```
 When you open the application in the browser (http://localhost:3000), modify some data of the profile, shutdown the containers (docker-compose down) and restart them again (docker-compose up -d), the changes in the profile data will still be there. 
